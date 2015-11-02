@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/martijnwalraven/meteor-ios.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
+  s.watchos.deployment_target = '2.0'
   s.requires_arc = true
 
   s.source_files = 'Meteor/**/*.{h,m}'
